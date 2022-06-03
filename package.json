@@ -1,0 +1,24 @@
+{
+  "name": "mini-koa-cli",
+  "version": "1.0.1",
+  "description": "一个koa的脚手架工具",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "node ./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.0",
+    "prettier": "^2.6.2"
+  }
+}
